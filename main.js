@@ -24,9 +24,6 @@ $(document).ready(function () {
                     <td colspan="2" style="color: #191819; font-size: 14px; font-family: 'Roboto', serif;">${title}</td>
                     </tr>
                     <tr>
-                    <td valign="top" style="vertical-align: top; color: #191819; font-size: 14px; font-family: 'Roboto', serif;"><a href="http://wrbbradio.org/" style=" color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">www.wrbbradio.org</td>
-                    </tr>
-                    <tr>
                     <td style="color: #191819; font-size: 14px; font-family: 'Roboto', serif;"><a href="mailto:${email}@wrbbradio.com" style="color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@wrbbradio.com</a></td>
                     </tr>
                 </table>
