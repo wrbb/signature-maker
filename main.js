@@ -5,7 +5,6 @@ $(document).ready(function () {
         // Get values in input fields
         var name = $("input[name='name']").val();
         var title = $("input[name='title']").val();
-        var phone = $("input[name='phone']").val();
         var email = $("input[name='email']").val();
         // Create signature HTML using ES6 template literal.
         // To update signature, replace this code and template the appropriate variables.
@@ -25,9 +24,6 @@ $(document).ready(function () {
                     <td colspan="2" style="color: #191819; font-size: 14px; font-family: 'Roboto', serif;">${title}</td>
                     </tr>
                     <tr>
-                    <td style="color: #191819; text-decoration: none; font-size: 14px; font-family: 'Roboto', serif;">${phone}</td>
-                    </tr>
-                    <tr>
                     <td valign="top" style="vertical-align: top; color: #191819; font-size: 14px; font-family: 'Roboto', serif;"><a href="http://wrbbradio.org/" style=" color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">www.wrbbradio.org</td>
                     </tr>
                     <tr>
@@ -43,7 +39,6 @@ $(document).ready(function () {
         // Clear all input fields
         var name = $("input[name='name']").val("");
         var title = $("input[name='title']").val("");
-        var phone = $("input[name='phone']").val("");
         var email = $("input[name='email']").val("");
     })
 });
