@@ -14,7 +14,7 @@ $(document).ready(function () {
             <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
             <tr>
             <td valign="top" style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 24px; border-top: 0; border-bottom: 0: border-left: 0; border-right: 0">
-                <img style="height: 132px;" id="preview-image-url" src="logo.png">
+                <img style="height: 80px;" id="preview-image-url" src="logo.png">
             </td>
             <td style="padding-top: 0; padding-bottom: 0; padding-left: 12px; padding-right: 0;">
                 <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">

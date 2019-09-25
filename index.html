@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>WRBB's Internal Signature Maker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    />
     <!-- Important: import Playfair Display Black and Roboto Regular font -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        h1,
-        h3,
-        h4,
-        * {
-            font-family: 'Roboto', serif;
-            color: #000000;
-        }
+      h1,
+      h3,
+      h4,
+      * {
+        font-family: "Roboto", serif;
+        color: #000000;
+      }
 
-        h2 {
-            font-family: 'Playfair Display', serif;
-            color: #000000;
-        }
+      h2 {
+        font-family: "Playfair Display", serif;
+        color: #000000;
+      }
     </style>
-</head>
+  </head>
 
-<body class="pt-5">
+  <body class="pt-5">
     <div class="row">
-        <div class="col-xs-6 mx-auto">
-            <h2>Enter your info here!</h2>
-            <form class="mt-3">
-                Full name:
-                <br />
-                <input type="text" name="name" />
-                <br />
-                Title:
-                <br />
-                <input type="text" name="title" />
-                <br />
-                Email:
-                <br />
-                <input type="text" name="email" />@wrbbradio.com
-                <br />
-                <h2>
-                    <input class="btn btn-primary mt-4" style="background: #d30f0f; border: #d30f0f;" type="submit"
-                        value="Generate Email Signature!" />
-                </h2>
-            </form>
-        </div>
+      <div class="col-xs-6 mx-auto">
+        <h2>Enter your info here!</h2>
+        <form class="mt-3">
+          Full name:
+          <br />
+          <input type="text" name="name" />
+          <br />
+          Title:
+          <br />
+          <input type="text" name="title" />
+          <br />
+          Email:
+          <br />
+          <input type="text" name="email" />@wrbbradio.com
+          <br />
+          <h2>
+            <input
+              class="btn btn-primary mt-4"
+              style="background: #d30f0f; border: #d30f0f;"
+              type="submit"
+              value="Generate Email Signature!"
+            />
+          </h2>
+        </form>
+      </div>
 
-        <div class="col-xs-6 mx-auto">
-            <h2 class="ml-3">Paste this into Gmail!</h2>
-            <div id="output">
-                <em class="p-4">Press SUBMIT first and you'll get your signature :)</em>
-            </div>
+      <div class="col-xs-6 mx-auto">
+        <h2 class="ml-3">Paste this into Gmail!</h2>
+        <div id="output">
+          <em class="p-4"
+            >Press SUBMIT first and you'll get your signature :)</em
+          >
         </div>
+      </div>
     </div>
 
     <hr />
     <div class="row">
-        <div class="col-xs-12 mx-auto">
-            <footer>
-                <p>original code by Nabeel, modifications and improvements :) by Catu</p>
-            </footer>
-        </div>
+      <div class="col-xs-12 mx-auto">
+        <footer>
+          <p>
+            original code by Nabeel, modifications and improvements :) by Catu
+          </p>
+        </footer>
+      </div>
     </div>
 
     <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
