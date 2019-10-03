@@ -13,18 +13,18 @@ $(document).ready(function () {
             <br>
             <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
             <tr>
-            <td valign="top" style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 24px; border-top: 0; border-bottom: 0: border-left: 0; border-right: 0">
-                <img style="height: 80px;" id="preview-image-url" src="logo.png">
+            <td valign="top" style="padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 15px; border-top: 0; border-bottom: 0: border-left: 0; border-right: 0">
+                <img style="height: 70px;" id="preview-image-url" src="logo.png">
             </td>
             <td style="padding-top: 0; padding-bottom: 0; padding-left: 12px; padding-right: 0;">
                 <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
                 <tr>
-                    <td colspan="2" style="padding-bottom: 5px; color: #191819; font-weight: bold; font-size: 18px; font-family: 'Playfair Display', sans-serif;">${name}</td></tr>
+                    <td colspan="2" style="padding-bottom: 5px; color: #191819; font-weight: bold; font-size: 14px; font-family: 'Playfair Display', sans-serif;">${name}</td></tr>
                     <tr>
-                    <td colspan="2" style="color: #191819; font-size: 14px; font-family: 'Roboto', serif;">${title}</td>
+                    <td colspan="2" style="color: #191819; font-size: 12px; font-family: 'Roboto', serif;">${title}</td>
                     </tr>
                     <tr>
-                    <td style="color: #191819; font-size: 14px; font-family: 'Roboto', serif;"><a href="mailto:${email}@wrbbradio.com" style="color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@wrbbradio.com</a></td>
+                    <td style="color: #191819; font-size: 12px; font-family: 'Roboto', serif;"><a href="mailto:${email}@wrbbradio.org" style="color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@wrbbradio.org</a></td>
                     </tr>
                 </table>
                 </td>
