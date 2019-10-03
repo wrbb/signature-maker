@@ -19,12 +19,12 @@ $(document).ready(function () {
             <td style="padding-top: 0; padding-bottom: 0; padding-left: 12px; padding-right: 0;">
                 <table cellpadding="0" cellspacing="0" border="0" style="background: none; border-width: 0px; border: 0px; margin: 0; padding: 0;">
                 <tr>
-                    <td colspan="2" style="padding-bottom: 5px; color: #191819; font-weight: bold; font-size: 14px; font-family: 'Playfair Display', sans-serif;">${name}</td></tr>
+                    <td colspan="2" style="padding-bottom: 5px; color: #191819; font-weight: bold; font-size: 12px; font-family: 'Playfair Display', sans-serif;">${name}</td></tr>
                     <tr>
-                    <td colspan="2" style="color: #191819; font-size: 12px; font-family: 'Roboto', serif;">${title}</td>
+                    <td colspan="2" style="color: #191819; font-size: 10px; font-family: 'Roboto', serif;">${title}</td>
                     </tr>
                     <tr>
-                    <td style="color: #191819; font-size: 12px; font-family: 'Roboto', serif;"><a href="mailto:${email}@wrbbradio.org" style="color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@wrbbradio.org</a></td>
+                    <td style="color: #191819; font-size: 10px; font-family: 'Roboto', serif;"><a href="mailto:${email}@wrbbradio.org" style="color: #d30f0f; text-decoration: none; font-weight: normal; font-size: 14px;">${email}@wrbbradio.org</a></td>
                     </tr>
                 </table>
                 </td>
